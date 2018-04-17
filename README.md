@@ -51,4 +51,5 @@
     }
  </pre> <br>
 剩下具体的实现步骤可以查看我的代码:<br>
-![快速通道](https://github.com/flashowner/forth3DHomework/tree/master/Scritps)
+![快速通道](https://github.com/flashowner/forth3DHomework/tree/master/Scritps)<br>
+![这是游戏视频的地址](http://v.youku.com/v_show/id_XMzU0NTc4Mjg5Mg==.html?spm=a2h3j.8428770.3416059.1)
