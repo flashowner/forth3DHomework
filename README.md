@@ -9,3 +9,10 @@
 所有飞碟重新放入unused中，然后将其从used中移除，这样就可以实现资源的循环利用，能够增加运行的效率。具体的实现代码如下：<br>
 ![](https://github.com/flashowner/forth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B7.PNG)<br>
   首先先从Prefabs中取UFO模型赋值给ufomodel方便接下来的使用。<br>
+![](https://github.com/flashowner/forth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B71.PNG) <br>
+接着就是从unused中取飞碟<br>
+![](https://github.com/flashowner/forth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B72.PNG) <br>
+然后是回收飞碟的过程<br>
+在这个游戏中还有一个非常重要的一点便是飞碟的设计，因为整个游戏便是围绕飞碟而进行的，在这里参考unity中游戏对象和组件的关系，其实可以把飞碟一些常用的属性
+例如颜色，方向，大小，速度作为一个组件，等到实例化飞碟对象时挂到这个游戏对象上。从上面工厂生产飞碟的代码中可以看到，在实例化飞碟的时候其实我是添加了一个
+叫做UFOInfo的组件到飞碟上的，而这个组件就是包含了飞碟的一些属性，具体声明如下：<br>
