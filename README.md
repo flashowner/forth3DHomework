@@ -7,3 +7,5 @@
 和unuesd，一个用来放还没使用过的飞碟，一个用来放使用过的飞碟，为了节约资源，在这里被击中的飞碟不进行销毁而是将它放到玩家看不见的地方。在需要使用飞碟时
 先从unused找看unused中有没有飞碟，如果有直接拿去用，如果没有就新实例化一个，然后将该飞碟放到used中，并将该飞碟从unused中移除。在回收飞碟时将used中的
 所有飞碟重新放入unused中，然后将其从used中移除，这样就可以实现资源的循环利用，能够增加运行的效率。具体的实现代码如下：<br>
+![](https://github.com/flashowner/forth3DHomework/blob/master/%E6%88%AA%E5%9B%BE/%E6%8D%95%E8%8E%B7.PNG)<br>
+  首先先从Prefabs中取UFO模型赋值给ufomodel方便接下来的使用。<br>
