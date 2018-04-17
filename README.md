@@ -28,3 +28,5 @@
 飞碟的动作相当简单，第一个是在飞碟生成的时候赋予它一个速度，在这里飞碟有两个方向的速度，一个是重力方向的速度，还有一个是沿着飞碟方向的速度，这个动作必
 须在飞碟产生的时候完成。其次是当飞碟飞到一定位置时需要让它“销毁”，也就是说使它的activeSelf设为false，然后将它移到一个看不见的地方避免再次被鼠标点到。
 具体实现的代码如下：<br>
+![](https://github.com/flashowner/Picture0/blob/master/%E6%88%AA%E5%9B%BE0/%E6%8D%95%E8%8E%B77.PNG)<br>
+![](https://github.com/flashowner/Picture0/blob/master/%E6%88%AA%E5%9B%BE0/%E6%8D%95%E8%8E%B77.PNG)<br>
