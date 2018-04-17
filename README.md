@@ -30,3 +30,4 @@
 具体实现的代码如下：<br>
 ![](https://github.com/flashowner/Picture0/blob/master/%E6%88%AA%E5%9B%BE0/%E6%8D%95%E8%8E%B76.PNG)<br>
 ![](https://github.com/flashowner/Picture0/blob/master/%E6%88%AA%E5%9B%BE0/%E6%8D%95%E8%8E%B77.PNG)<br>
+要完成整个游戏最后还需要有击中飞碟这个动作，这里我使用鼠标发出射线，击中飞碟后飞碟消失：<br>
